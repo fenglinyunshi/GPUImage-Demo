@@ -23,7 +23,6 @@
 @property(copy,nonatomic)NSArray *filterArr;
 @property(weak,nonatomic)UISlider *mySlider;
 @property(strong,nonatomic)UIButton *selectedBtn;
-@property(assign,nonatomic)BOOL isFront;
 
 @end
 
@@ -31,8 +30,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.isFront = YES;
     
     //初始化相机，第一个参数表示相册的尺寸，第二个参数表示前后摄像头
     self.myCamera = [[GPUImageStillCamera alloc] initWithSessionPreset:AVCaptureSessionPreset1280x720 cameraPosition:AVCaptureDevicePositionFront];
@@ -119,8 +116,8 @@
     
     //切换前后摄像机
     UIButton *switchBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    //设置2s内不可以连续点击
-    switchBtn.custom_acceptEventInterval = 2;
+    //设置2s内不可以连续点击,防止用户连续点击
+    switchBtn.custom_acceptEventInterval = 1;
     switchBtn.frame = CGRectMake(ScreenW-60, 30, 44, 35);
     [switchBtn setImage:[UIImage imageNamed:@"switch.png"] forState:UIControlStateNormal];
     [switchBtn addTarget:self action:@selector(switchIsChanged:) forControlEvents:UIControlEventTouchUpInside];
@@ -175,25 +172,9 @@
 
 //切换前后镜头
 - (void)switchIsChanged:(UIButton *)sender {
-    self.isFront = !self.isFront;
-    if (!self.isFront){
-        self.myCamera = nil;
-        self.myCamera = [[GPUImageStillCamera alloc] initWithSessionPreset:AVCaptureSessionPreset1280x720 cameraPosition:AVCaptureDevicePositionBack];
-        //竖屏方向
-        self.myCamera.outputImageOrientation = UIInterfaceOrientationPortrait;
-        [self.myCamera addTarget:self.myFilter];
-        [self.myFilter addTarget:self.myGPUImageView];
-        
-    } else {
-        self.myCamera = nil;
-        self.myCamera = [[GPUImageStillCamera alloc] initWithSessionPreset:AVCaptureSessionPreset1280x720 cameraPosition:AVCaptureDevicePositionFront];
-        //竖屏方向
-        self.myCamera.outputImageOrientation = UIInterfaceOrientationPortrait;
-        [self.myCamera addTarget:self.myFilter];
-        [self.myFilter addTarget:self.myGPUImageView];
 
-    }
-    [self.myCamera startCameraCapture];
+    [self.myCamera rotateCamera];
+
 }
 
 
