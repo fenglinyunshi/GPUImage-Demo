@@ -1,0 +1,5 @@
+platform :ios,'8.0'
+target 'GPUImage_WHC_01' do
+pod 'GPUImage', '~> 0.1.7'
+end
+

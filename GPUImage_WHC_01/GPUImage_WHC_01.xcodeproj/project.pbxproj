@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2431190692C5DECB15F935DE /* libPods-GPUImage_WHC_01.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF64F23658300534DDD62FE9 /* libPods-GPUImage_WHC_01.a */; };
+		DA168D871E84C3F100B79947 /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA168D861E84C3F100B79947 /* photo2.png */; };
+		DA168D8A1E84D02800B79947 /* photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = DA168D881E84D02800B79947 /* photo1.png */; };
+		DA168D8B1E84D02800B79947 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = DA168D891E84D02800B79947 /* photo.png */; };
+		DA168D8E1E84E2C900B79947 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA168D8D1E84E2C900B79947 /* GPUImageBeautifyFilter.m */; };
+		DA168D931E84ED4300B79947 /* UIButton+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = DA168D921E84ED4300B79947 /* UIButton+Custom.m */; };
+		DA168D971E84F45400B79947 /* switch.png in Resources */ = {isa = PBXBuildFile; fileRef = DA168D961E84F45400B79947 /* switch.png */; };
+		DA4B995F1E8256A30023BC01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B995E1E8256A30023BC01 /* main.m */; };
+		DA4B99621E8256A30023BC01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B99611E8256A30023BC01 /* AppDelegate.m */; };
+		DA4B99651E8256A30023BC01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B99641E8256A30023BC01 /* ViewController.m */; };
+		DA4B99681E8256A30023BC01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4B99661E8256A30023BC01 /* Main.storyboard */; };
+		DA4B996A1E8256A30023BC01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4B99691E8256A30023BC01 /* Assets.xcassets */; };
+		DA4B996D1E8256A30023BC01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4B996B1E8256A30023BC01 /* LaunchScreen.storyboard */; };
+		DA4B99781E8256A30023BC01 /* GPUImage_WHC_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B99771E8256A30023BC01 /* GPUImage_WHC_01Tests.m */; };
+		DA4B99831E8256A30023BC01 /* GPUImage_WHC_01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B99821E8256A30023BC01 /* GPUImage_WHC_01UITests.m */; };
+		DA4B99911E82631B0023BC01 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA4B99901E82631B0023BC01 /* img1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA4B99741E8256A30023BC01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA4B99521E8256A30023BC01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4B99591E8256A30023BC01;
+			remoteInfo = GPUImage_WHC_01;
+		};
+		DA4B997F1E8256A30023BC01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA4B99521E8256A30023BC01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4B99591E8256A30023BC01;
+			remoteInfo = GPUImage_WHC_01;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F9E16332AD80126C7742224 /* Pods-GPUImage_WHC_01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImage_WHC_01.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImage_WHC_01/Pods-GPUImage_WHC_01.release.xcconfig"; sourceTree = "<group>"; };
+		AF64F23658300534DDD62FE9 /* libPods-GPUImage_WHC_01.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUImage_WHC_01.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA168D861E84C3F100B79947 /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
+		DA168D881E84D02800B79947 /* photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo1.png; sourceTree = "<group>"; };
+		DA168D891E84D02800B79947 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		DA168D8C1E84E2C900B79947 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		DA168D8D1E84E2C900B79947 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		DA168D911E84ED4200B79947 /* UIButton+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Custom.h"; sourceTree = "<group>"; };
+		DA168D921E84ED4300B79947 /* UIButton+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Custom.m"; sourceTree = "<group>"; };
+		DA168D961E84F45400B79947 /* switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch.png; sourceTree = "<group>"; };
+		DA4B995A1E8256A30023BC01 /* GPUImage_WHC_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPUImage_WHC_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4B995E1E8256A30023BC01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA4B99601E8256A30023BC01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA4B99611E8256A30023BC01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA4B99631E8256A30023BC01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA4B99641E8256A30023BC01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA4B99671E8256A30023BC01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA4B99691E8256A30023BC01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA4B996C1E8256A30023BC01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA4B996E1E8256A30023BC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA4B99731E8256A30023BC01 /* GPUImage_WHC_01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUImage_WHC_01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4B99771E8256A30023BC01 /* GPUImage_WHC_01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImage_WHC_01Tests.m; sourceTree = "<group>"; };
+		DA4B99791E8256A30023BC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA4B997E1E8256A30023BC01 /* GPUImage_WHC_01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUImage_WHC_01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4B99821E8256A30023BC01 /* GPUImage_WHC_01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImage_WHC_01UITests.m; sourceTree = "<group>"; };
+		DA4B99841E8256A30023BC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA4B99901E82631B0023BC01 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		E922D220CAEA2D0CFA309803 /* Pods-GPUImage_WHC_01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImage_WHC_01.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImage_WHC_01/Pods-GPUImage_WHC_01.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA4B99571E8256A30023BC01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2431190692C5DECB15F935DE /* libPods-GPUImage_WHC_01.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4B99701E8256A30023BC01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4B997B1E8256A30023BC01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E7AC938A841253791234085 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E922D220CAEA2D0CFA309803 /* Pods-GPUImage_WHC_01.debug.xcconfig */,
+				6F9E16332AD80126C7742224 /* Pods-GPUImage_WHC_01.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85177328189742D70B143701 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF64F23658300534DDD62FE9 /* libPods-GPUImage_WHC_01.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA4B99511E8256A30023BC01 = {
+			isa = PBXGroup;
+			children = (
+				DA4B995C1E8256A30023BC01 /* GPUImage_WHC_01 */,
+				DA4B99761E8256A30023BC01 /* GPUImage_WHC_01Tests */,
+				DA4B99811E8256A30023BC01 /* GPUImage_WHC_01UITests */,
+				DA4B995B1E8256A30023BC01 /* Products */,
+				3E7AC938A841253791234085 /* Pods */,
+				85177328189742D70B143701 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA4B995B1E8256A30023BC01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B995A1E8256A30023BC01 /* GPUImage_WHC_01.app */,
+				DA4B99731E8256A30023BC01 /* GPUImage_WHC_01Tests.xctest */,
+				DA4B997E1E8256A30023BC01 /* GPUImage_WHC_01UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA4B995C1E8256A30023BC01 /* GPUImage_WHC_01 */ = {
+			isa = PBXGroup;
+			children = (
+				DA168D911E84ED4200B79947 /* UIButton+Custom.h */,
+				DA168D921E84ED4300B79947 /* UIButton+Custom.m */,
+				DA168D8C1E84E2C900B79947 /* GPUImageBeautifyFilter.h */,
+				DA168D8D1E84E2C900B79947 /* GPUImageBeautifyFilter.m */,
+				DA4B99601E8256A30023BC01 /* AppDelegate.h */,
+				DA4B99611E8256A30023BC01 /* AppDelegate.m */,
+				DA4B99631E8256A30023BC01 /* ViewController.h */,
+				DA4B99641E8256A30023BC01 /* ViewController.m */,
+				DA4B99661E8256A30023BC01 /* Main.storyboard */,
+				DA4B99691E8256A30023BC01 /* Assets.xcassets */,
+				DA4B996B1E8256A30023BC01 /* LaunchScreen.storyboard */,
+				DA4B996E1E8256A30023BC01 /* Info.plist */,
+				DA4B995D1E8256A30023BC01 /* Supporting Files */,
+			);
+			path = GPUImage_WHC_01;
+			sourceTree = "<group>";
+		};
+		DA4B995D1E8256A30023BC01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA168D961E84F45400B79947 /* switch.png */,
+				DA168D881E84D02800B79947 /* photo1.png */,
+				DA168D891E84D02800B79947 /* photo.png */,
+				DA168D861E84C3F100B79947 /* photo2.png */,
+				DA4B99901E82631B0023BC01 /* img1.jpg */,
+				DA4B995E1E8256A30023BC01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA4B99761E8256A30023BC01 /* GPUImage_WHC_01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B99771E8256A30023BC01 /* GPUImage_WHC_01Tests.m */,
+				DA4B99791E8256A30023BC01 /* Info.plist */,
+			);
+			path = GPUImage_WHC_01Tests;
+			sourceTree = "<group>";
+		};
+		DA4B99811E8256A30023BC01 /* GPUImage_WHC_01UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B99821E8256A30023BC01 /* GPUImage_WHC_01UITests.m */,
+				DA4B99841E8256A30023BC01 /* Info.plist */,
+			);
+			path = GPUImage_WHC_01UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA4B99591E8256A30023BC01 /* GPUImage_WHC_01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4B99871E8256A30023BC01 /* Build configuration list for PBXNativeTarget "GPUImage_WHC_01" */;
+			buildPhases = (
+				62B962165181AA10AF004B4B /* [CP] Check Pods Manifest.lock */,
+				DA4B99561E8256A30023BC01 /* Sources */,
+				DA4B99571E8256A30023BC01 /* Frameworks */,
+				DA4B99581E8256A30023BC01 /* Resources */,
+				87DF18305DE744176741F375 /* [CP] Embed Pods Frameworks */,
+				706A941204E4DB8031211080 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPUImage_WHC_01;
+			productName = GPUImage_WHC_01;
+			productReference = DA4B995A1E8256A30023BC01 /* GPUImage_WHC_01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA4B99721E8256A30023BC01 /* GPUImage_WHC_01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4B998A1E8256A30023BC01 /* Build configuration list for PBXNativeTarget "GPUImage_WHC_01Tests" */;
+			buildPhases = (
+				DA4B996F1E8256A30023BC01 /* Sources */,
+				DA4B99701E8256A30023BC01 /* Frameworks */,
+				DA4B99711E8256A30023BC01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA4B99751E8256A30023BC01 /* PBXTargetDependency */,
+			);
+			name = GPUImage_WHC_01Tests;
+			productName = GPUImage_WHC_01Tests;
+			productReference = DA4B99731E8256A30023BC01 /* GPUImage_WHC_01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA4B997D1E8256A30023BC01 /* GPUImage_WHC_01UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4B998D1E8256A30023BC01 /* Build configuration list for PBXNativeTarget "GPUImage_WHC_01UITests" */;
+			buildPhases = (
+				DA4B997A1E8256A30023BC01 /* Sources */,
+				DA4B997B1E8256A30023BC01 /* Frameworks */,
+				DA4B997C1E8256A30023BC01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA4B99801E8256A30023BC01 /* PBXTargetDependency */,
+			);
+			name = GPUImage_WHC_01UITests;
+			productName = GPUImage_WHC_01UITests;
+			productReference = DA4B997E1E8256A30023BC01 /* GPUImage_WHC_01UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA4B99521E8256A30023BC01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = PicVision;
+				TargetAttributes = {
+					DA4B99591E8256A30023BC01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6365DA2KWN;
+						ProvisioningStyle = Automatic;
+					};
+					DA4B99721E8256A30023BC01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6365DA2KWN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA4B99591E8256A30023BC01;
+					};
+					DA4B997D1E8256A30023BC01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6365DA2KWN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA4B99591E8256A30023BC01;
+					};
+				};
+			};
+			buildConfigurationList = DA4B99551E8256A30023BC01 /* Build configuration list for PBXProject "GPUImage_WHC_01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA4B99511E8256A30023BC01;
+			productRefGroup = DA4B995B1E8256A30023BC01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA4B99591E8256A30023BC01 /* GPUImage_WHC_01 */,
+				DA4B99721E8256A30023BC01 /* GPUImage_WHC_01Tests */,
+				DA4B997D1E8256A30023BC01 /* GPUImage_WHC_01UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA4B99581E8256A30023BC01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA168D8B1E84D02800B79947 /* photo.png in Resources */,
+				DA168D8A1E84D02800B79947 /* photo1.png in Resources */,
+				DA168D871E84C3F100B79947 /* photo2.png in Resources */,
+				DA4B996D1E8256A30023BC01 /* LaunchScreen.storyboard in Resources */,
+				DA4B99911E82631B0023BC01 /* img1.jpg in Resources */,
+				DA4B996A1E8256A30023BC01 /* Assets.xcassets in Resources */,
+				DA4B99681E8256A30023BC01 /* Main.storyboard in Resources */,
+				DA168D971E84F45400B79947 /* switch.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4B99711E8256A30023BC01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4B997C1E8256A30023BC01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62B962165181AA10AF004B4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		706A941204E4DB8031211080 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImage_WHC_01/Pods-GPUImage_WHC_01-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87DF18305DE744176741F375 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImage_WHC_01/Pods-GPUImage_WHC_01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA4B99561E8256A30023BC01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4B99651E8256A30023BC01 /* ViewController.m in Sources */,
+				DA168D8E1E84E2C900B79947 /* GPUImageBeautifyFilter.m in Sources */,
+				DA4B99621E8256A30023BC01 /* AppDelegate.m in Sources */,
+				DA168D931E84ED4300B79947 /* UIButton+Custom.m in Sources */,
+				DA4B995F1E8256A30023BC01 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4B996F1E8256A30023BC01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4B99781E8256A30023BC01 /* GPUImage_WHC_01Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4B997A1E8256A30023BC01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4B99831E8256A30023BC01 /* GPUImage_WHC_01UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA4B99751E8256A30023BC01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA4B99591E8256A30023BC01 /* GPUImage_WHC_01 */;
+			targetProxy = DA4B99741E8256A30023BC01 /* PBXContainerItemProxy */;
+		};
+		DA4B99801E8256A30023BC01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA4B99591E8256A30023BC01 /* GPUImage_WHC_01 */;
+			targetProxy = DA4B997F1E8256A30023BC01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA4B99661E8256A30023BC01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA4B99671E8256A30023BC01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA4B996B1E8256A30023BC01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA4B996C1E8256A30023BC01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA4B99851E8256A30023BC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA4B99861E8256A30023BC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA4B99881E8256A30023BC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E922D220CAEA2D0CFA309803 /* Pods-GPUImage_WHC_01.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = GPUImage_WHC_01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PicVision.GPUImage-WHC-01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA4B99891E8256A30023BC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F9E16332AD80126C7742224 /* Pods-GPUImage_WHC_01.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = GPUImage_WHC_01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PicVision.GPUImage-WHC-01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA4B998B1E8256A30023BC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = GPUImage_WHC_01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PicVision.GPUImage-WHC-01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPUImage_WHC_01.app/GPUImage_WHC_01";
+			};
+			name = Debug;
+		};
+		DA4B998C1E8256A30023BC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = GPUImage_WHC_01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PicVision.GPUImage-WHC-01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPUImage_WHC_01.app/GPUImage_WHC_01";
+			};
+			name = Release;
+		};
+		DA4B998E1E8256A30023BC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = GPUImage_WHC_01UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PicVision.GPUImage-WHC-01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GPUImage_WHC_01;
+			};
+			name = Debug;
+		};
+		DA4B998F1E8256A30023BC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = GPUImage_WHC_01UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PicVision.GPUImage-WHC-01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GPUImage_WHC_01;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA4B99551E8256A30023BC01 /* Build configuration list for PBXProject "GPUImage_WHC_01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4B99851E8256A30023BC01 /* Debug */,
+				DA4B99861E8256A30023BC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA4B99871E8256A30023BC01 /* Build configuration list for PBXNativeTarget "GPUImage_WHC_01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4B99881E8256A30023BC01 /* Debug */,
+				DA4B99891E8256A30023BC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA4B998A1E8256A30023BC01 /* Build configuration list for PBXNativeTarget "GPUImage_WHC_01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4B998B1E8256A30023BC01 /* Debug */,
+				DA4B998C1E8256A30023BC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA4B998D1E8256A30023BC01 /* Build configuration list for PBXNativeTarget "GPUImage_WHC_01UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4B998E1E8256A30023BC01 /* Debug */,
+				DA4B998F1E8256A30023BC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA4B99521E8256A30023BC01 /* Project object */;
+}
