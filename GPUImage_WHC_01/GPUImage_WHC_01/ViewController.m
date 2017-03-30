@@ -28,6 +28,8 @@
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -130,14 +132,11 @@
     
     [self.selectedBtn setBackgroundColor:[UIColor lightGrayColor]];
     [sender setBackgroundColor:[UIColor blueColor]];
-    
     self.mySlider.value = 0.5;
-    
     if (3 == (sender.tag-100) || 4 == (sender.tag-100) || 5 == (sender.tag-100) || 7 == (sender.tag-100)) {
         self.mySlider.hidden = YES;
     }else{
         self.mySlider.hidden = NO;
-
     }
     GPUImageFilter *filter = self.filterArr[sender.tag-100];
     [self.myCamera removeAllTargets];
@@ -172,9 +171,7 @@
 
 //切换前后镜头
 - (void)switchIsChanged:(UIButton *)sender {
-
     [self.myCamera rotateCamera];
-
 }
 
 
@@ -195,9 +192,7 @@
         }];
         
     }];
-
 }
-
 
 
 @end
