@@ -1,0 +1,4 @@
+platform :ios,'8.9'
+target 'GPUImage_WHC_02(groupFilter)' do
+pod 'GPUImage', '~> 0.1.7'
+end
