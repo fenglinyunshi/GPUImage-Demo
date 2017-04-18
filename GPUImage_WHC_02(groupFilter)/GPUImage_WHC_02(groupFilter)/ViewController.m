@@ -89,7 +89,7 @@
     
     //拿到处理后的图片
     UIImage *dealedImage = [filterPipline currentFilteredFrame];
-
+    self.myImageView.image = dealedImage;
 
 }
 
